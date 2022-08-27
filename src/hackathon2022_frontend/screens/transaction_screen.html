@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction screen</title>
+    <link rel="stylesheet" href="/src/hackathon2022_frontend/assets/css/transaction_screen.css">
+</head>
+<body>
+    <div id="transaction_screen_top_navigation_bar">
+        <div id="transaction_screen_logo_container">
+            <img id="logo" src="/src/hackathon2022_frontend/assets/img/cattus 1.png" alt="">  
+        </div>
+
+        <div id="transaction_screen_hoat_dong_cac_bai_binh_chon_container">
+            <div onclick="location='./doing_or_done_screen.html'" id="transaction_screen_hoat_dong_container">
+                <img id="time_left" src="/src/hackathon2022_frontend/assets/img/time-left 1.png" alt="">
+                <p id="transaction_screen_hoat_dong">Activities</p>
+            </div>
+
+            <div onclick="location='./road_to_results_screen.html'" id="transaction_screen_cac_bai_binh_chon_container">
+                <img id="archive" src="/src/hackathon2022_frontend/assets/img/archive 1.png" alt="">
+                <p id="transaction_screen_cac_bai_binh_chon">Votes</p>
+            </div>
+        </div>
+
+        <div id="transaction_screen_profile_container">
+            <button onclick="location='./profile-screen.html'" id="transaction_screen_profile_button">
+                <img src="/src/hackathon2022_frontend/assets/img/user 1.png" alt="">
+                <p id="transaction_screen_profile">Profile</p>
+            </button>
+        </div>
+    </div>
+
+    <div id="transaction_screen_option_header_container">
+        <p id="transaction_screen_option_header">Transaction</p>
+    </div>
+
+    <div id="transaction_screen_option_choice_container">
+        <div id="transaction_screen_option_choice_how_to_pay_container">
+             
+            <select name="payment" id="how_to_pay">
+                <option value="nft">NFT</option>
+                <option value="token">Token</option>
+            </select>
+        </div>
+
+        <div id="transaction_screen_option_connect_plug_container">
+            <button id="transaction_screen_option_connect_plug_button">
+                <p id="transaction_screen_option_connect_plug_button_text">Connect to Plug</p>
+            </button>
+        </div>
+
+        <div id="transaction_screen_option_reciever_and_sender_id_container">
+            <p id="transaction_screen_option_reciever_id">Receiver ID</p>
+            <input id="transaction_screen_option_reciever_id_input" type="text">
+
+            <p id="transaction_screen_option_sender_id">Sender ID</p>
+            <input id="transaction_screen_option_sender_id_input" type="text">
+        </div>
+        
+        <div id="transaction_screen_option_amount_container">
+            <p id="transaction_screen_option_amount">Amount</p>
+            <input id="transaction_screen_option_amount_input" type="text">
+        </div>
+
+        <div id="transaction_screen_option_submit_button">
+            <input id="transaction_screen_option_submit_input" type="submit" value="Transfer">
+        </div>
+    </div>
+</body>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile screen</title>
+    <link rel="stylesheet" href="/src/hackathon2022_frontend/assets/css/profile-screen.css">
+</head>
+<body>
+    <div id="road_to_results_screen_top_navigation_bar">
+        <div id="road_to_results_screen_logo_container">
+            <img id="logo" src="/src/hackathon2022_frontend/assets/img/cattus 1.png" alt="">  
+        </div>
+
+        <div id="road_to_results_screen_hoat_dong_cac_bai_binh_chon_container">
+            <div onclick="location='./doing_or_done_screen.html'" id="road_to_results_screen_hoat_dong_container">
+                <img id="time_left" src="/src/hackathon2022_frontend/assets/img/time-left 1.png" alt="">
+                <p id="road_to_results_screen_hoat_dong">Hoạt động</p>
+            </div>
+
+            <div onclick="location='./road_to_results_screen.html'" id="road_to_results_screen_cac_bai_binh_chon_container">
+                <img id="archive" src="/src/hackathon2022_frontend/assets/img/archive 1.png" alt="">
+                <p id="road_to_results_screen_cac_bai_binh_chon">Các bài bình chọn</p>
+            </div>
+        </div>
+
+        <div id="road_to_results_screen_profile_container">
+            <button id="road_to_results_screen_profile_button">
+                <img src="/src/hackathon2022_frontend/assets/img/user 1.png" alt="">
+                <p id="road_to_results_screen_profile">Profile</p>
+            </button>
+        </div>
+    </div>
+
+    <div id="profile_screen_info_container">
+        <div id="profile_screen_avatar_container">
+            <div id="profile_screen_avatar_image_container">
+                <img id="profile_screen_avatar_image" src="/src/hackathon2022_frontend/assets/img/user 2.png" alt="">
+                <button id="profile_screen_avatar_image_change_button"> 
+                    <p id="profile_screen_avatar_image_change_text">Change avatar</p>
+                </button>
+            </div>
+
+            <div id="profile_screen_profile_and_username_container">
+                <div id="profile_screen_profile_container">
+                    <p id="profile_screen_profile">Profile</p>
+                </div>
+
+                <div id="profile_screen_username_container">
+                    <p id="profile_screen_username">Username</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div></div>
+
+            <div></div>
+        </div>
+    </div>
+
+    <div id="profile_screen_options_container">
+        <div onclick="location='./popup_account_screen.html'" id="profile_screen_options_account_container">
+            <p id="profile_screen_options_account_text">Account</p>
+            <img id="right_arrow" src="/src/hackathon2022_frontend/assets/img/Vector 3.png" alt="">
+        </div>
+
+        <div onclick="location='./popup_settings_screen.html'" id="profile_screen_options_settings_container">
+            <p id="profile_screen_options_settings_text">Settings</p>
+            <img id="right_arrow" src="/src/hackathon2022_frontend/assets/img/Vector 3.png" alt="">
+        </div>
+
+        <div onclick="location='./popup_help_screen.html'" id="profile_screen_options_help_container">
+            <p id="profile_screen_options_help_text">Help</p>
+            <img id="right_arrow" src="/src/hackathon2022_frontend/assets/img/Vector 3.png" alt="">
+        </div>
+
+        <div id="profile_screen_options_sign_out_container">
+            <p id="profile_screen_options_sign_out_text">Sign out</p>
+            <img id="right_arrow" src="/src/hackathon2022_frontend/assets/img/Vector 3.png" alt="">
+        </div>
+        
+    </div>
+</body>
+</html>
