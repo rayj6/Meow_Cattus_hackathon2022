@@ -1,0 +1,96 @@
+html {
+    background-color: #06071B
+}
+
+#popup_settings_screen_option_container{
+    background: linear-gradient(135deg, #FD6585 0%, #0D25B9 100%),
+    linear-gradient(0deg, rgba(255, 233, 133, 0), rgba(255, 233, 133, 0));
+    width: 40%;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+#popup_settings_screen_change_password_container{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    width: 95%;
+    margin: auto;
+}
+
+#popup_settings_screen_change_password{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 15px 10px;
+    margin-left: 10px;
+}
+
+#popup_settings_screen_old_password_container{
+    /* background-color: aquamarine; */
+}
+
+#popup_settings_screen_old_password_text_container{
+    /* background-color: blueviolet; */
+    margin-left: 10px;
+}
+
+#popup_settings_screen_old_password_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#popup_settings_screen_old_password_input_container{
+    /* background-color: #FD6585; */
+    margin-left: 10px;
+}
+
+#popup_settings_screen_old_password_input{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    border: none;
+    width: 310px;
+    height: 50px;
+}
+
+#popup_settings_screen_new_password_container{
+    /* background-color: aquamarine; */
+}
+
+#popup_settings_screen_new_password_text_container{
+    /* background-color: blueviolet; */
+    margin-left: 10px;
+}
+
+#popup_settings_screen_new_password_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#popup_settings_screen_new_password_input_container{
+    /* background-color: #FD6585; */
+    margin-left: 10px;
+}
+
+#popup_settings_screen_new_password_input{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    border: none;
+    width: 310px;
+    height: 50px;
+}

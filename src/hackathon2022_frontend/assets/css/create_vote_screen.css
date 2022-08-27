@@ -1,0 +1,201 @@
+html {
+    background-color: #06071B
+}
+
+#create_vote_screen_top_navigation_bar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+#logo{
+    width: 143px;
+    height: 44px;
+    /* margin-top: 51px; */
+    margin-left: 50px;
+}
+
+/* #create_vote_screen_logo_container{
+    background-color: aliceblue;
+} */
+
+#create_vote_screen_hoat_dong{
+    color: #FFFFFF;
+}
+
+#create_vote_screen_hoat_dong_container{
+    display: flex;
+    align-items: center;
+}
+
+#time_left{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#create_vote_screen_cac_bai_binh_chon_container{
+    display: flex;
+    align-items: center;
+}
+
+#create_vote_screen_cac_bai_binh_chon{
+    color: #FFFFFF;
+}
+
+#create_vote_screen_hoat_dong_cac_bai_binh_chon_container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+    /* margin-top: 51px; */
+    /* margin-left: 250px; */
+    width: 480px;
+}
+
+#create_vote_screen_profile_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    width: 69px;
+    height: 25px;
+    /* margin-top: 60px; */
+    margin-right: 50px;
+}
+
+#create_vote_screen_profile{
+    color: #FFFFFF;
+    padding: 0px 5px;
+}
+
+#archive{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#create_vote_screen_create_vote_container{
+    background: linear-gradient(135deg, #FD6585 0%, #0D25B9 100%);
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 95%;
+    margin: auto;
+}
+
+#create_vote_screen_create_vote_header_container{
+    width: fit-content;
+    margin: auto;
+}
+
+#create_vote_screen_create_vote_header{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+#create_vote_screen_content_container{
+    display: flex;
+    align-items: center;
+}
+
+#create_vote_screen_content_text_container{
+    margin-left: 100px;
+}
+
+#create_vote_screen_content_text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+#create_vote_screen_content_input_container{
+    margin-left: 100px;
+}
+
+#create_vote_screen_content_input{
+    border: 2px solid #04DFB9;
+    border-radius: 1100.5px;
+    background-color: transparent;
+    width: 300px;
+    height: 30px;
+}
+
+#create_vote_screen_options_text_container{
+    margin-left: 100px;
+}
+
+#create_vote_screen_options_text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+#create_vote_screen_done_button_container{
+    width: 10%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#create_vote_screen_done_button{
+    width: 100%;
+    background: #04DFB9;
+    border-radius: 1100.5px;
+    border: none;
+}
+
+#create_vote_screen_done{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+#create_vote_screen_list_of_options_container{
+    /* background-color: blueviolet; */
+    display: flex;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#create_vote_screen_list_of_options_1_container{
+    /* background-color: crimson; */
+    border: 2px solid #04DFB9;
+    border-radius: 1100.5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#create_vote_screen_list_of_options_1_text{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+#create_vote_screen_list_of_options_add_button{
+    border: 2px solid #04DFB9;
+    border-radius: 1100.5px;
+    background-color: transparent;
+}
+
+#create_vote_screen_list_of_options_add_button_text{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 10px 30px;
+}

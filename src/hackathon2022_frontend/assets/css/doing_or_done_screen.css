@@ -1,0 +1,210 @@
+html {
+    background-color: #06071B
+}
+
+#doing_or_done_screen_top_navigation_bar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+#logo{
+    width: 143px;
+    height: 44px;
+    /* margin-top: 51px; */
+    margin-left: 50px;
+}
+
+/* #doing_or_done_screen_logo_container{
+    background-color: aliceblue;
+} */
+
+#doing_or_done_screen_hoat_dong{
+    color: #FFFFFF;
+}
+
+#doing_or_done_screen_hoat_dong_container{
+    display: flex;
+    align-items: center;
+}
+
+#time_left{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#doing_or_done_screen_cac_bai_binh_chon_container{
+    display: flex;
+    align-items: center;
+}
+
+#doing_or_done_screen_cac_bai_binh_chon{
+    color: #FFFFFF;
+}
+
+#doing_or_done_screen_hoat_dong_cac_bai_binh_chon_container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+    /* margin-top: 51px; */
+    /* margin-left: 250px; */
+    width: 480px;
+}
+
+#doing_or_done_screen_profile_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    width: 69px;
+    height: 25px;
+    /* margin-top: 60px; */
+    margin-right: 50px;
+}
+
+#doing_or_done_screen_profile{
+    color: #FFFFFF;
+    padding: 0px 5px;
+}
+
+#archive{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#doing_or_done_screen_doing_or_done_status_container{
+    /* background-color: aquamarine; */
+    display: flex;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+#doing_or_done_screen_doing_status_button{
+    width: 84px;
+    height: 33px;
+    border-radius: 1100.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #C442A6 solid;
+    background-color: transparent;
+}
+
+#doing_or_done_screen_doing_status{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+#doing_or_done_screen_done_status_button{
+    width: 84px;
+    height: 33px;
+    border-radius: 1100.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #06071B solid;
+    background-color: transparent;
+}
+
+#doing_or_done_screen_done_status{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+#doing_or_done_screen_vote_list_container{
+    display: grid;
+    /* background-color: aquamarine; */
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    padding-right: 10%;
+    column-gap: 100px;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+#doing_or_done_screen_vote_list_1{
+    background: linear-gradient(135deg, #FD6585 0%, #0D25B9 100%),
+    linear-gradient(0deg, rgba(255, 233, 133, 0), rgba(255, 233, 133, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#doing_or_done_screen_vote_list_picture_container{
+    background-color: #04DFB9;
+    width: 175px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#doing_or_done_screen_vote_list_picture{
+    width: 53px;
+    height: 53px;
+}
+
+/* #doing_or_done_screen_vote_list_name_of_voting_container{
+    background-color: cyan;
+}    */
+
+#doing_or_done_screen_vote_list_name_of_voting{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+/* #doing_or_done_screen_vote_list_content_of_vote_container{
+    background-color: #C442A6;
+} */
+
+#doing_or_done_screen_vote_list_content_of_vote{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+/* #doing_or_done_screen_vote_list_date_of_creating_vote_container{
+    background-color: indigo;
+} */
+
+#doing_or_done_screen_vote_list_date_of_creating_vote{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+#doing_or_done_screen_vote_list_information_container{
+    /* background-color: burlywood; */
+    width: 50%;
+}
