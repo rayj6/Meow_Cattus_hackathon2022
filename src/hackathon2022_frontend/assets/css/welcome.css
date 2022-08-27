@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'roboto';
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+
+    width: 100%;
+    height: 12%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+    z-index:1;
+}
+
+.logo_container {
+    width: 20%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo_container img {
+    width: 60%;
+    height: 60%;
+}
+
+.welcome_nav_body {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#welcome_nav_body_props {
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    
+    font-size: 20px;
+
+    background-color: transparent;
+    color: white;
+}
+
+#welcome_nav_body_props:hover{
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+#welcome_nav_body_props img {
+    width: 35px;
+    height: 35px;
+
+    margin-right: 5%;
+}
+
+#welcome_nav_body_language {
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+}
+
+#welcome_nav_body_language select {
+    width: 60%;
+    height: 30%;
+
+    margin-right: 10%;
+
+    background-color: transparent;
+    color: white;
+
+    border: 0;
+
+    font-size: 20px;
+
+}
+
+#welcome_nav_body_language img {
+    width: 35px;
+    height: 35px;
+
+    margin-right: 5%;
+}
+
+
+
+#login_register {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#login_register button {
+    width: 40%;
+    height: 40%;
+
+    border: 2px solid white;
+    border-radius: 20px;
+
+    /* font-size: 20px; */
+
+    color: white;
+    background-color: transparent;
+}
+
+#login_register button:hover{
+    background-color: rgba(255, 255, 255, 0.488)
+}
+
+
+.Welcome_body {
+    position: absolute;
+
+    width: 100%;
+    /* height: 3760px; */
+
+    /* margin-top: 100px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: #04DFB9; */
+
+}
+
+.welcome_container {
+    /* position: absolute; */
+
+    width: 90%;
+    height: 600px;
+
+    margin-top: 8%;
+
+    border-radius: 20px 20px 500px 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    background: linear-gradient(135deg, #FD6585 0%, #0D25B9 100%),
+    linear-gradient(0deg, rgba(255, 233, 133, 0), rgba(255, 233, 133, 0));
+
+}
+
+#welcome_content {
+    width:  60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: aqua; */
+}
+
+#welcome_content_header {
+    width: 80%;
+    height: 40%;
+
+    /* background-color: white; */
+
+    font-size: 55px;
+    
+    color: white;
+}
+
+#welcome_content_body {
+    width: 80%;
+    height: 20%;
+
+    /* background-color: white; */
+
+    font-size: 26px;
+
+    margin-top: -3%;
+    
+    color: white;
+}
+
+#welcome_content_contact {
+    width: 80%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#welcome_content_contact button {
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+
+    width: 30%;
+    height: 40%;
+}
+
+#sign_up {
+    color: white;
+    background-color: #04DFB9;
+
+    border: 0
+}
+
+#sign_up:hover{
+    color: white;
+    background-color: #65f4dc;
+}
+
+#more {
+    color: white;
+    background-color: transparent;
+
+    border: 2px solid white;
+
+    margin-left: 10%;
+}
+
+#more:hover{
+    background-color: rgba(255, 255, 255, 0.493)
+}
+
+#welcome_image {
+    width:  40%;
+    height: 100%;
+}
+
+#welcome_image img {
+    width: 100%;
+    height: 110%;
+}
+
+
+.characteristic {
+    /* position: absolute; */
+
+    width: 100%;
+    height: 900px;
+
+    margin-top: 8%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+    /* background-color: white; */
+}
+
+#characteristic_props {
+    width: 25%;
+    height: 70%;
+
+    border-radius: 20px;
+
+    background-color: #FFFFFF38;
+    color: white;
+}
+
+#characteristic_props h1 {
+    margin-top: 5%;
+    margin-left: 5%;
+
+    font-size: 40px;
+}
+
+.aboutTeam {
+    width: 100%;
+    height: 900px;
+
+    margin-top: 8%;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+
+    /* background-color: white; */
+}
+
+.aboutTeam h1 {
+    color: white;
+
+    margin-left: 5%;
+    margin-top: 2%;
+
+    font-size: 40px;
+}
+
+
+#showteam {
+    width: 100%;
+    height: 80%;
+    
+    margin-top: 2%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#team {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.teamprops {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    /* justify-content: space-around; */
+}
+
+.teamprops h2 {
+    font-size: 30px;
+    margin-top: 15%;
+}
+
+.teamprops h3 {
+    font-size: 22px;
+    margin-top: -5%;
+}
+
+.teamprops img {
+    width: 200px;
+    height: 200px;  
+}
+
+#teamcontent {
+    width: 80%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.footer {
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    /* background-color: wheat; */
+    color: white;
+    margin-top: 100px;
+}
+
+#footer_part1 {
+    width: 20%;
+    height: 90%;
+}
+
+#footer_part1 img {
+    width: 80%;
+    /* height: 20%; */
+}
+
+#footer_part1 h2 {
+    font-size: 20px;
+}
+
+#footer_part2 {
+    width: 40%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: white; */
+}
+
+#links {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#Contact_container {
+    width: 65%;
+    height: 50%;
+    
+}
+
+#contact_content {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#footer_part3 {
+    width: 20%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+#partner_logo {
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#partner_logo img {
+    width: 80%;
+    height: 20%;
+}
+
+#contact_content_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 50%;
+}
+
+#contact_content_container div {
+    /* width: 45%; */
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    /* text-align: left; */
+}
+
+#contact_content_container p {
+    /* width: 70%; */
+    color: white;
+
+    font-size: 18px;
+    text-align: left;
+}
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#link_to_email{
+    padding-right: 30px;
+}
+
+#link_to_email_image{
+    width: 56px;
+    height: 56px;
+}
+
+#link_to_email_text{
+    margin-left: 10px;
+}
+
+#link_to_phone_image{
+    width: 56px;
+    height: 56px;
+}
+
+#link_to_phone_text{
+    margin-left: 10px;
+}
+
+#link_to_facebook_image{
+    width: 56px;
+    height: 56px;
+}
+
+#link_to_facebook_text{
+    margin-left: 10px;
+    /* width: 50px; */
+}
+
+#link_to_github_image{
+    width: 100%;
+    height: 100%;
+}
+
+#link_to_github_text{
+    margin-left: 10px;
+}
+
+#footer_part1_image{
+    width: 10px;
+}

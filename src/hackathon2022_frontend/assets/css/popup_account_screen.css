@@ -1,0 +1,77 @@
+html {
+    background-color: #06071B
+}
+
+#popup_account_screen_option_container{
+    background: linear-gradient(135deg, #FD6585 0%, #0D25B9 100%),
+    linear-gradient(0deg, rgba(255, 233, 133, 0), rgba(255, 233, 133, 0));
+    width: 40%;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+#popup_account_screen_email_container{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    width: 90%;
+    margin: auto;
+}
+
+#popup_account_screen_email{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+#popup_account_screen_username_container{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    width: 90%;
+    margin: auto;
+}
+
+#popup_account_screen_username{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+#popup_account_screen_principle_id_container{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    width: 90%;
+    margin: auto;
+}
+
+#popup_account_screen_principle_id{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+#popup_account_screen_transaction_container{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    width: 90%;
+    margin: auto;
+}
+
+#popup_account_screen_transaction{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+}

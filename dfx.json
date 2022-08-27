@@ -4,16 +4,7 @@
   "canisters": {
     "hackathon2022_backend": {
       "type": "motoko",
-      "main": "src/hackathon2022_backend/main.mo"
-    },
-    "hackathon2022_frontend": {
-      "type": "assets",
-      "source": [
-        "src/hackathon2022_frontend/assets"
-      ],
-      "dependencies": [
-        "hackathon2022_backend"
-      ]
+      "main": "src/hackathon2022_onchain_backend/main.mo"
     }
   },
   "defaults": {
