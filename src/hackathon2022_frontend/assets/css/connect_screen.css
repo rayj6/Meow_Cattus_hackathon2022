@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+html{
+    background: linear-gradient(180deg, #C442A6 0%, #273A98 100%);
+}
+
+#connect_screen_container{
+    background: linear-gradient(180deg, #C442A6 0%, #273A98 100%);
+    height: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position:absolute */
+}
+
+#connect_screen_connect_to_plug_container{
+    background-color: transparent;
+    border: 2px solid aquamarine;
+    border-radius: 50px;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+    color: aliceblue;
+}
+
+#connect_screen_connect_to_plug{
+    /* color: aliceblue; */
+    font-size: 50px;
+    cursor: pointer;
+    padding: 0 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#connect_screen_connect_to_plug_container:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+#connect_screen_connect_to_plug_container:focus{
+    background-color: rgb(6, 250, 169);
+    color: black;
+}

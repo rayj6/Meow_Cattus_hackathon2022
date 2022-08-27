@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+html {
+    background-color: #06071B
+}
+
+#root{
+}
+
+#enter_code_screen_top_navigation_bar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+#logo{
+    width: 143px;
+    height: 44px;
+    /* margin-top: 51px; */
+    margin-left: 50px;
+}
+
+#enter_code_screen_logo_container{
+    /* background-color: aliceblue; */
+}
+
+#enter_code_screen_hoat_dong{
+    color: #FFFFFF;
+}
+
+#enter_code_screen_hoat_dong_container{
+    display: flex;
+    align-items: center;
+}
+
+#time_left{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#enter_code_screen_cac_bai_binh_chon_container{
+    display: flex;
+    align-items: center;
+}
+
+#enter_code_screen_cac_bai_binh_chon{
+    color: #FFFFFF;
+}
+
+#enter_code_screen_hoat_dong_cac_bai_binh_chon_container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+    /* margin-top: 51px; */
+    /* margin-left: 250px; */
+    width: 480px;
+}
+
+#enter_code_screen_profile_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    width: 69px;
+    height: 25px;
+    /* margin-top: 60px; */
+    margin-right: 50px;
+}
+
+#enter_code_screen_profile{
+    color: #FFFFFF;
+    padding: 0px 5px;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_container{
+    background: linear-gradient(135deg, #FD6585 2.69%, #0D25B9 102.69%),
+    linear-gradient(0deg, rgba(255, 233, 133, 0), rgba(255, 233, 133, 0));
+    height: 550px;
+    margin-top: 20px;
+    width: 95%;
+    margin: auto;
+    border-radius: 30px;    
+    padding-bottom: 30px;
+}
+
+#archive{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_header_container{
+    /* background-color: aqua; */
+    justify-content: center;
+    display: flex;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_container{
+    /* background-color: chartreuse; */
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 15%;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_1{
+    background-color: #FFFFFF;
+    width: calc(100%/6 - 5%);
+    height: 5px;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_2{
+    background-color: #FFFFFF;
+    width: calc(100%/6 - 5%);
+    height: 5px;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_3{
+    background-color: #FFFFFF;
+    width: calc(100%/6 - 5%);
+    height: 5px;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_4{
+    background-color: #FFFFFF;
+    width: calc(100%/6 - 5%);
+    height: 5px;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_5{
+    background-color: #FFFFFF;
+    width: calc(100%/6 - 5%);
+    height: 5px;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_6{
+    background-color: #FFFFFF;
+    width: calc(100%/6 - 5%);
+    height: 5px;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_tham_gia_container{
+    /* background-color: aquamarine; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_tham_gia_button{
+    width: 133px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04DFB9;
+    border: none;
+    border-radius: 1100.5px;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_tham_gia{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_1_input{
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_2_input{
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_3_input{
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_4_input{
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_5_input{
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+}
+
+#enter_code_screen_nhap_ma_tham_gia_code_6_input{
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+}
