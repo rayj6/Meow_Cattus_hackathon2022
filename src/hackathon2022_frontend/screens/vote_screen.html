@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate screen</title>
+    <link rel="stylesheet" href="/src/hackathon2022_frontend/assets/css/vote_screen.css">
+</head>
+<body>
+    <div id="vote_screen_top_navigation_bar">
+        <div id="vote_screen_logo_container">
+            <img id="logo" src="/src/hackathon2022_frontend/assets/img/cattus 1.png" alt="">  
+        </div>
+
+        <div id="vote_screen_hoat_dong_cac_bai_binh_chon_container">
+            <div onclick="location='./doing_or_done_screen.html'" id="vote_screen_hoat_dong_container">
+                <img id="time_left" src="/src/hackathon2022_frontend/assets/img/time-left 1.png" alt="">
+                <p id="vote_screen_hoat_dong">Hoạt động</p>
+            </div>
+
+            <div onclick="location='./road_to_results_screen.html'" id="vote_screen_cac_bai_binh_chon_container">
+                <img id="archive" src="/src/hackathon2022_frontend/assets/img/archive 1.png" alt="">
+                <p id="vote_screen_cac_bai_binh_chon">Các bài bình chọn</p>
+            </div>
+        </div>
+
+        <div id="vote_screen_profile_container">
+            <button onclick="location='./profile-screen.html'" id="vote_screen_profile_button">
+                <img src="/src/hackathon2022_frontend/assets/img/user 1.png" alt="">
+                <p id="vote_screen_profile">Profile</p>
+            </button>
+        </div>
+    </div>
+
+    <div id="vote_screen_header_container">
+        <div id="vote_screen_done_by_number_people_container">
+            <button id="vote_screen_done_by_number_people_button">
+                <img id="vote_screen_done_by_number_people_image" src="/src/hackathon2022_frontend/assets/img/people 1.png" alt="">
+                <p id="vote_screen_done_by_number_people_text">Done by <span id="vote_screen_number">(number)</span> people</p>
+            </button>
+        </div>
+        
+        <div id="vote_screen_rate_info_container">
+            <div id="vote_screen_name_of_rate_container">
+                <p id="vote_screen_name_of_rate">Name of vote</p>
+            </div>
+
+            <div id="vote_screen_created_by_name_of_person_container">
+                <p id="vote_screen_created_by_name_of_person">Created by <span id="vote_screen_name_of_person">(name of person)</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="vote_screen_rate_container">
+        <div id="vote_screen_name_and_rating_container">
+            <div id="vote_screen_name_container">
+                <p id="vote_screen_name_text">Name</p>
+            </div>
+        </div>
+
+        <div id="vote_screen_option_1">
+            <button id="vote_screen_option_1_name">
+                <p id="vote_screen_option_1_name_text">option 1</p>
+            </button>
+        </div>
+
+        <div id="vote_screen_option_2">
+            <button id="vote_screen_option_2_name">
+                <p id="vote_screen_option_2_name_text">option 2</p>
+            </button>
+        </div> 
+
+        <div id="vote_screen_done_container">
+            <button id="vote_screen_done_button">
+                <p id="vote_screen_done_text">Done</p>
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>

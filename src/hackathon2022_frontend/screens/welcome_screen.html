@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/hackathon2022_frontend/assets/css/welcome.css" />
+    <link rel="stylesheet" href="/src/hackathon2022_frontend/assets/css/main.css">
+    <title>Cattus</title>
+    <link rel="shortcut icon" href="/src/hackathon2022_frontend/assets/img/logo.ico" type="image/x-icon">
+    <!-- <script src="index.js"></script> -->
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo_container">
+        <img src="/src/hackathon2022_frontend/assets/img/logo.png" alt="" />
+      </div>
+      <div class="welcome_nav_body">
+        <button id="welcome_nav_body_props" onclick="location='./login_screen.html'">
+          <p>Trang chủ</p>
+        </button>
+        <button id="welcome_nav_body_props" onclick="location='./login_screen.html'">
+          <p>Hoạt động</p>
+        </button>
+        <button id="welcome_nav_body_props" onclick="location='./login_screen.html'">
+          <p>Các lượt bình chọn</p>
+        </button>
+
+        <div id="welcome_nav_body_language">
+          <img src="/src/hackathon2022_frontend/assets/img/language_logo.png" alt="" />
+          <select value="language">
+            <option name="Vietnamese" id="Vietnamese">Tiếng Việt</option>
+            <option name="English" id="English">English</option>
+          </select>
+        </div>
+
+        <div id="login_register">
+          <button id="login"><a href="login_screen.html">Đăng nhập</a></button>
+          <button id="register"><a href="register_screen.html">Đăng ký</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="Welcome_body">
+      <div class="welcome_container">
+        <div id="welcome_content">
+          <h1 id="welcome_content_header">
+            Nền tảng <br />
+            tiện lợi <br />
+            100%
+          </h1>
+          <p id="welcome_content_body">
+            Hỗ trợ người dùng bình chọn và đánh giá bằng cách 
+            sử dụng kết hợp công nghệ Blockchain, CATTUS mang 
+            đến sự minh bạch và rõ ràng trong từng quyết định 
+            của người dùng.
+          </p>
+          <div id="welcome_content_contact">
+            <button id="sign_up" onclick="location='./register_screen.html'">Đăng ký</button>
+            <button id="more" >Tìm hiểu thêm</button>
+          </div>
+        </div>
+        <div id="welcome_image">
+          <img src="/src/hackathon2022_frontend/assets/img/Welcome_icon.png" alt="welcome icon" />
+        </div>
+      </div>
+      <div class="characteristic reveal">
+        <div id="characteristic_props">
+          <h1>Available<br />emplate</h1>
+        </div>
+        <div id="characteristic_props">
+          <h1>Blockchain<br />technology</h1>
+        </div>
+        <div id="characteristic_props">
+          <h1>Individuality</h1>
+        </div>
+      </div>
+      <div class="aboutTeam reveal">
+        <h1>About team</h1>
+        <div id="showteam">
+          <div id="team">
+            <div class="teamprops">
+              <img src="/src/hackathon2022_frontend/assets/img/Tu_image.png" alt="" />
+              <div id="teamprops_title">
+                <h2 id="name">Nguyen Tuan Tu</h2>
+                <h3 id="works">
+                  Project manager<br />Fullstack developer<br />Database
+                </h3>
+              </div>
+            </div>
+            <div class="teamprops">
+              <img src="/src/hackathon2022_frontend/assets/img/Nam_image.png" alt="" />
+              <div id="teamprops_title">
+                <h2 id="name">Tran Hoang Nam</h2>
+                <h3 id="works">Front-end developer</h3>
+              </div>
+            </div>
+            <div class="teamprops">
+              <img src="/src/hackathon2022_frontend/assets/img/Duc_image.png" alt="" />
+              <div id="teamprops_title">
+                <h2 id="name">Le Anh Duc</h2>
+                <h3 id="works">Back-end developer</h3>
+              </div>
+            </div>
+          </div>
+          <div id="teamcontent">
+            <div class="teamprops">
+              <img src="/src/hackathon2022_frontend/assets/img/An_image.png" alt="" />
+              <div id="teamprops_title">
+                <h2 id="name">Dinh Nguyen Ngoc An</h2>
+                <h3 id="works">Content creator</h3>
+              </div>
+            </div>
+            <div class="teamprops">
+              <img src="/src/hackathon2022_frontend/assets/img/Anh_image.png" alt="" />
+              <div id="teamprops_title">
+                <h2 id="name">Nguyen Thi Ngoc Anh</h2>
+                <h3 id="works">UI/UX Designer</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer_part1">
+          <img id="footer_part1_image" src="/src/hackathon2022_frontend/assets/img/logo.png" alt="footer logo" />
+          <h2>
+            If you have any problem with our services, please send to email then
+            we will consider and fix it. Thank to join us and have a fantastic
+            experience.
+          </h2>
+          <div id="footerLink">
+            <h1>Link</h1>
+            <p>Documentation</p>
+            <p>FAQ</p>
+            <p>System</p>
+          </div>
+        </div>
+        <div id="footer_part2">
+          <div id="links">
+            <div id="About_container">
+              <h1>About</h1>
+              <p>Home</p>
+              <p>About characteristic</p>
+              <p>About team</p>
+            </div>
+            <div id="Legal_container">
+              <h1>Legal</h1>
+              <p>Terms of use</p>
+              <p>Privacy policy</p>
+              <p>Cookie policy</p>
+            </div>
+          </div>
+          <div id="Contact_container">
+            <h1>Contact</h1>
+            <div id="contact_content">
+              <div id="contact_content_container">
+                <div id="link_to_email">
+                  <img id="link_to_email_image" src="/src/hackathon2022_frontend/assets/img/mail_icon.png" alt="" />
+                  <p id="link_to_email_text">tuntfs4998@fpt.edu.vn</p>
+                </div>
+                <div id="link_to_phone">
+                  <img id="link_to_phone_image" src="/src/hackathon2022_frontend/assets/img/phone_icon.png" alt="" />
+                  <p id="link_to_phone_text">0868320014</p>
+                </div>
+              </div>
+              <br />
+              <div id="contact_content_container">
+                <div id="link_to_facebook">
+                  <img id="link_to_facebook_image" src="/src/hackathon2022_frontend/assets/img/facebook_icon.png" alt="" />
+                  <p id="link_to_facebook_text">Tú Nguyễn</p>
+                </div>
+                <div id="link_to_github">
+                  <img id="link_to_github_image" src="/src/hackathon2022_frontend/assets/img/github_icon.png" alt="" />
+                  <p id="link_to_github_text">rayj6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="footer_part3">
+          <h1>Partners</h1>
+          <div id="partner_logo">
+            <img src="/src/hackathon2022_frontend/assets/img/FPT_icon.png" alt="fpt education system" /><br />
+            <img src="/src/hackathon2022_frontend/assets/img/FALCON_icon.png" alt="falcon onesoft game studio" /><br />
+            <img src="/src/hackathon2022_frontend/assets/img/TAAN_icon.png" alt="taan" /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../hackathon2022_offchain_backend/getWebValue.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create vote screen</title>
+    <link rel="stylesheet" href="/src/hackathon2022_frontend/assets/css/create_vote_screen.css">
+</head>
+<body>
+    <div id="create_vote_screen_top_navigation_bar">
+        <div id="create_vote_screen_logo_container">
+            <img id="logo" src="/src/hackathon2022_frontend/assets/img/cattus 1.png" alt="">  
+        </div>
+
+        <div id="create_vote_screen_hoat_dong_cac_bai_binh_chon_container">
+            <div onclick="location='./doing_or_done_screen.html'" id="create_vote_screen_hoat_dong_container">
+                <img id="time_left" src="/src/hackathon2022_frontend/assets/img/time-left 1.png" alt="">
+                <p id="create_vote_screen_hoat_dong">Activities</p>
+            </div>
+
+            <div onclick="location='./road_to_results_screen.html'" id="create_vote_screen_cac_bai_binh_chon_container">
+                <img id="archive" src="/src/hackathon2022_frontend/assets/img/archive 1.png" alt="">
+                <p id="create_vote_screen_cac_bai_binh_chon">Votes</p>
+            </div>
+        </div>
+
+        <div id="create_vote_screen_profile_container">
+            <button onclick="location='./profile-screen.html'" id="create_vote_screen_profile_button">
+                <img src="/src/hackathon2022_frontend/assets/img/user 1.png" alt="">
+                <p id="create_vote_screen_profile">Profile</p>
+            </button>
+        </div>
+    </div>
+
+    <div id="create_vote_screen_create_vote_container">
+        <div id="create_vote_screen_create_vote_header_container">
+            <p id="create_vote_screen_create_vote_header">Create vote</p>
+        </div>
+
+        <div id="create_vote_screen_content_container">
+            <div id="create_vote_screen_content_text_container">
+                <p id="create_vote_screen_content_text">Content</p>
+            </div>
+
+            <div id="create_vote_screen_content_input_container">
+                <input id="create_vote_screen_content_input" type="text">
+            </div>
+        </div>
+
+        <div id="create_vote_screen_options_container">
+            <div id="create_vote_screen_options_text_container">
+                <p id="create_vote_screen_options_text">Options</p>
+            </div>
+
+            <div id="create_vote_screen_list_of_options_container">
+                <div id="create_vote_screen_list_of_options_1_container"> 
+                    <p id="create_vote_screen_list_of_options_1_text">something here</p>
+                </div>
+
+                <div id="create_vote_screen_list_of_options_1_container"> 
+                    <p id="create_vote_screen_list_of_options_1_text">something here</p>
+                </div>
+
+                <div id="create_vote_screen_list_of_options_1_container"> 
+                    <p id="create_vote_screen_list_of_options_1_text">something here</p>
+                </div>
+
+                <div id="create_vote_screen_list_of_options_add_container">
+                    <button id="create_vote_screen_list_of_options_add_button">
+                        <p id="create_vote_screen_list_of_options_add_button_text">Add</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="create_vote_screen_done_button_container">
+            <button id="create_vote_screen_done_button">
+                <p id="create_vote_screen_done">Done</p>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
