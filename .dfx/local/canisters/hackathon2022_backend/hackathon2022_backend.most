@@ -1,0 +1,14 @@
+// Version: 1.0.0
+type Users = users;
+type Votes = votingroom;
+type users = {email : Text; username : Text};
+type votingroom = {content : Text; options : [Text]; owner : Principal};
+actor {
+  stable var roomEntries : [(Text, Votes)];
+  stable var roomIDs : [Text];
+  stable var roomjoinedEntries : [(Principal, [Text])];
+  stable var starsEntries : [(Text, [[Nat]])];
+  stable var userList : [Users];
+  stable var usersEntries : [(Principal, Users)];
+  stable var votesEntries : [(Principal, [Votes])]
+};

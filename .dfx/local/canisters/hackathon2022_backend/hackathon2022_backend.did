@@ -1,0 +1,37 @@
+type Votes = 
+ record {
+   content: text;
+   options: vec text;
+   owner: principal;
+ };
+type Users = 
+ record {
+   email: text;
+   username: text;
+ };
+service : {
+  CreateAccount: (text, text) -> (text);
+  allRooms: () -> (vec text);
+  allroomEntries: () -> (vec record {
+                               text;
+                               Votes;
+                             });
+  allvoteEntries: () -> (vec record {
+                               principal;
+                               vec Votes;
+                             });
+  clearall: (text) -> ();
+  createVote: (text, vec text, text) -> (opt Votes);
+  currentResult: (opt vec vec nat) -> (vec float64);
+  endVote: (text) -> (opt vec float64);
+  isJoined: (text) -> (bool);
+  joinVote: (text, vec nat) -> (text);
+  returnRoomID: (text) -> (opt Votes);
+  returnVote: () -> (opt vec Votes);
+  returnaccount: () -> (opt Users);
+  sayHi: () -> (text);
+  test: () -> (vec record {
+                     principal;
+                     vec Votes;
+                   });
+}
